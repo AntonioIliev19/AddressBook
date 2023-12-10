@@ -7,6 +7,8 @@ A user-friendly Angular application for managing and viewing a list of users. Th
 - ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/4e7551ca-fcce-4c07-a49f-45a2fa902edc)
 - **Filtering**
   ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/f4552c13-510d-4017-9890-d63f848334bc)
+- **Details**
+  ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/69e21c4c-360c-4974-8e24-f064a725f9af)
 - **Iphone 14 Pro Max View**
   ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/73b7d394-54a6-47b9-a18a-42aaf4b2178c)
 
