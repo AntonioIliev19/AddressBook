@@ -1,15 +1,21 @@
-Angular Address Book App
+# Angular Address Book App
 
-A user-friendly Angular application for managing and viewing a list of users. This app features real-time search functionality, allowing users to filter through the list as they type. Each user's details can be viewed by clicking on their profile. The application is built using Angular, TypeScript, HTML, CSS and C# providing a responsive design for a seamless user experience across devices.
+A user-friendly Angular application for managing and viewing a list of users. This app features real-time search functionality, allowing users to filter through the list as they type. Each user's details can be viewed by clicking on their profile. The application is built using Angular, TypeScript, HTML, CSS, and C#, providing a responsive design for a seamless user experience across devices.
 
-Features
-User List: Display a list of users with profile pictures and relevant information.
-Real-Time Search: Filter users instantly based on input in the search bar.
-User Details: View detailed information about each user.
-Responsive Design: Ensures a consistent experience on various devices.
+## Features
 
-Getting Started
-Clone the repository: git clone https://github.com/AntonioIliev19/AddressBook.git
+- **User List:** Display a list of users with profile pictures and relevant information.
+- **Real-Time Search:** Filter users instantly based on input in the search bar.
+- **User Details:** View detailed information about each user.
+- **Responsive Design:** Ensures a consistent experience on various devices.
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/AntonioIliev19/AddressBook.git
+
 Install dependencies: npm install
 In the AddressBook.Server, open the Program.cs file and edit your IP and Port for CORS services. 
 Also, in the AddressBook.Client, open the people.service.ts file and change your API URL, to mach with your local URL.
