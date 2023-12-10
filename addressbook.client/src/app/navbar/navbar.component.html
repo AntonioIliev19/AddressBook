@@ -1,0 +1,8 @@
+<main>
+  <header class="brand-name">
+    <h2 class="title">ADDRESS BOOK</h2>
+    <form>
+      <input type="text" placeholder="Filter by name" (input)="onSearchInput($event)" [(ngModel)]="searchTerm"  name="search"/>
+    </form>
+  </header>
+</main>

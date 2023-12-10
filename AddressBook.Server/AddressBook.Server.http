@@ -1,0 +1,6 @@
+@AddressBook.Server_HostAddress = http://localhost:5187
+
+GET {{AddressBook.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

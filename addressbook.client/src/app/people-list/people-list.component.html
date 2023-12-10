@@ -1,0 +1,16 @@
+<app-navbar (searchTermChanged)="handleSearchTermChanged($event)"></app-navbar>
+
+<div class="card-container">
+  <div class="card" *ngFor="let user of filteredUsers" (click)="showUserDetails(user)">
+    <img [src]="user.picture.large" alt="{{ user.fullName.first }} {{ user.fullName.last }}">
+    <h3>{{ user.fullName.title }}. {{ user.fullName.first }} {{ user.fullName.last }}</h3>
+    <p>{{ user.location.country }}</p>
+    <span><strong>More details</strong></span>
+  </div>
+</div>
+
+<div class="details-overlay" (click)="closeUserDetails()" *ngIf="selectedUser">
+  <div class="details-popup">
+    <app-user-details [user]="selectedUser"></app-user-details>
+  </div>
+</div>
