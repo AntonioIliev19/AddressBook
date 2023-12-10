@@ -2,6 +2,15 @@
 
 A user-friendly Angular application for managing and viewing a list of users. This app features real-time search functionality, allowing users to filter through the list as they type. Each user's details can be viewed by clicking on their profile. The application is built using Angular, TypeScript, HTML, CSS, and C#, providing a responsive design for a seamless user experience across devices.
 
+## Photos
+
+- ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/4e7551ca-fcce-4c07-a49f-45a2fa902edc)
+- **Filtering**
+  ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/f4552c13-510d-4017-9890-d63f848334bc)
+- **Iphone 14 Pro Max View**
+  ![image](https://github.com/AntonioIliev19/AddressBook/assets/114621404/73b7d394-54a6-47b9-a18a-42aaf4b2178c)
+
+
 ## Features
 
 - **User List:** Display a list of users with profile pictures and relevant information.
