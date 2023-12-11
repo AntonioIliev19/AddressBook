@@ -1,5 +1,3 @@
-using AddressBook.Server;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpClient();
