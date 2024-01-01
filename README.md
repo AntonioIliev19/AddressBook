@@ -46,6 +46,7 @@ Open your browser and navigate to http://yourip:yourport/ to access the applicat
 - **src/app/people.service.ts:** Service for fetching user data.
 
 ## Project Structure for server side
-- **controllers/PeopleController.cs/:** API Controller for getting random users from https://randomuser.me/
-- **modals/Class.cs/:** Models which we want to receive
+- **controllers/PeopleController.cs/:** API Controller which is responsible to make a HttpGet request
+- **PeopleService.cs:** The business logic of getting the random users from randomuser.me
+- **modals/Class.cs/:** Models, which we want to receive
 - **Program.cs/:**  The whole builder section, also with CORS services
