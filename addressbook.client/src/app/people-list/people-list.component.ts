@@ -35,10 +35,24 @@ export class PeopleListComponent implements OnInit {
       const searchTermLower = this.searchTerm.toLowerCase();
 
       // Filter users based on the search term
-      this.filteredUsers = this.users.filter(user =>
-        user.fullName.first.toLowerCase().includes(searchTermLower) ||
-        user.fullName.last.toLowerCase().includes(searchTermLower)
-      );
+      this.filteredUsers = this.users.filter(user => {
+        // Split the email address by "@" to get the name part
+        const emailParts = user.email.split('@');
+        if (emailParts.length === 2) {
+          // Split the name part by "." to get first and last names
+          const nameParts = emailParts[0].split('.');
+          if (nameParts.length === 2) {
+            const firstName = nameParts[0].toLowerCase();
+            const lastName = nameParts[1].toLowerCase();
+
+            // Check if the first or last name matches the search term
+            return (
+              firstName.includes(searchTermLower) || lastName.includes(searchTermLower)
+            );
+          }
+        }
+        return false;
+      });
 
       console.log('Filtered Users:', this.filteredUsers);
     }
